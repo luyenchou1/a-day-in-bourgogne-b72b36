@@ -1,0 +1,145 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A Day in Northern Burgundy</title><meta name="robots" content="noindex,nofollow"><meta property="og:title" content="A Day in Northern Burgundy"><meta property="og:description" content="A day trip through Chablis, Coulanges-la-Vineuse and Saint-Bris — with Rachel, June 2026."><meta property="og:type" content="article"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>
+:root{
+ --paper:#f4ecdd; --paper2:#efe5d2; --card:#fbf6ec; --ink:#352a1f; 
+ --muted:#8a7a64; --wine:#6d1226; --wine2:#8c2638; --gold:#b3833f; --line:rgba(109,18,38,.16);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);
+ font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+ font-size:18px;line-height:1.8;-webkit-font-smoothing:antialiased}
+img{display:block;width:100%;height:auto}
+a{color:var(--wine)}
+.serif{font-family:"Cormorant Garamond",Georgia,serif}
+.col{max-width:680px;margin:0 auto;padding:0 22px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+
+/* HERO */
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;
+ background:#1b120c center/cover no-repeat;overflow:hidden}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+ filter:saturate(1.05) contrast(1.02)}
+.hero .veil{position:absolute;inset:0;background:
+ linear-gradient(180deg,rgba(20,12,8,.28) 0%,rgba(20,12,8,.05) 40%,rgba(20,12,8,.78) 100%)}
+.hero .inner{position:relative;z-index:2;color:#f7efe1;padding:0 22px 9vh;width:100%;text-align:center}
+.hero .eyebrow{color:#e9d7b6}
+.hero h1{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;
+ font-size:clamp(2.8rem,8vw,5.8rem);line-height:1.02;margin:.12em 0 .18em;letter-spacing:.5px;
+ text-shadow:0 2px 30px rgba(0,0,0,.45)}
+.hero .sub{font-size:1.05rem;color:#f0e6d4;letter-spacing:.02em}
+.hero .places{margin-top:.8em;font-size:.82rem;letter-spacing:.32em;text-transform:uppercase;color:#dcc8a6}
+.scroll{margin-top:2.4em;font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;color:#e9d7b6;opacity:.85}
+.scroll:after{content:"";display:block;width:1px;height:46px;margin:12px auto 0;
+ background:linear-gradient(#e9d7b6,transparent)}
+
+/* TYPE */
+.eyebrow{font-size:.72rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--wine)}
+.lede{font-size:1.25rem;line-height:1.7}
+section{padding:64px 0}
+.sec-head{text-align:center;margin-bottom:30px}
+.sec-head .rule{width:46px;height:2px;background:var(--gold);margin:14px auto 16px;border-radius:2px}
+h2{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;
+ font-size:clamp(2rem,5vw,2.9rem);line-height:1.08;margin:.1em 0 0}
+.sec-head .sub{color:var(--muted);font-style:italic;font-family:"Cormorant Garamond",serif;font-size:1.3rem}
+p{margin:0 0 1.15em}
+.col p:first-of-type::first-letter{font-family:"Cormorant Garamond",serif;font-weight:600;
+ float:left;font-size:3.5rem;line-height:.78;padding:.06em .12em 0 0;color:var(--wine)}
+.nofirst p:first-of-type::first-letter{float:none;font-size:inherit;color:inherit;padding:0}
+
+/* FIGURES */
+.fig{margin:26px 0}
+.fig img{border-radius:6px;box-shadow:0 22px 44px -28px rgba(40,20,10,.7)}
+figcaption{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:1.02rem;
+ color:var(--muted);text-align:center;margin-top:9px;line-height:1.4}
+.grid{display:grid;gap:18px;margin:26px 0}
+.grid.cols-2{grid-template-columns:1fr 1fr}
+.grid.cols-3{grid-template-columns:1fr 1fr 1fr}
+.grid .fig{margin:0}
+.bleed{max-width:1180px;margin-left:auto;margin-right:auto;padding:0 22px}
+.bleed .fig img{max-height:78vh;object-fit:cover}
+
+/* PULL QUOTE */
+.pull{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:500;
+ font-size:clamp(1.5rem,3.6vw,2.1rem);line-height:1.32;color:var(--wine);text-align:center;
+ max-width:660px;margin:40px auto;padding:26px 10px;border-top:1px solid var(--line);
+ border-bottom:1px solid var(--line);position:relative}
+.pull .mark{display:block;color:var(--gold);font-size:1.4rem;margin-bottom:.2em;font-style:normal}
+
+/* MAP */
+.mapcard{max-width:880px;margin:8px auto 0;background:var(--card);
+ border:1px solid var(--line);border-radius:8px;padding:14px;
+ box-shadow:0 26px 50px -34px rgba(40,20,10,.55)}
+.mapcard .inner{border:1.5px solid var(--gold);border-radius:5px;padding:6px}
+.mapcap{text-align:center;color:var(--muted);font-style:italic;font-family:"Cormorant Garamond",serif;
+ margin-top:12px;font-size:1.02rem}
+
+/* WINES CARD */
+.wines{background:var(--card);border:1px solid var(--line);border-radius:8px;
+ padding:30px 30px 14px;margin:18px auto 0;max-width:760px;
+ box-shadow:0 26px 50px -34px rgba(40,20,10,.5)}
+.wines h3{font-family:"Cormorant Garamond",serif;text-align:center;font-size:1.9rem;font-weight:600;margin:0 0 .4em}
+.wines .w{padding:14px 0;border-top:1px solid var(--line)}
+.wines .w:first-of-type{border-top:0}
+.wines .w b{font-family:"Cormorant Garamond",serif;font-size:1.25rem;color:var(--wine)}
+.wines .w p{font-size:.98rem;color:var(--ink);margin:.3em 0 0}
+.wines .home{color:var(--gold);font-style:italic;font-family:"Cormorant Garamond",serif}
+
+footer{text-align:center;padding:54px 22px 70px;color:var(--muted);
+ border-top:1px solid var(--line);margin-top:30px;background:var(--paper2)}
+footer .grape{color:var(--wine);font-size:1.4rem}
+footer .small{font-size:.82rem;letter-spacing:.04em}
+
+/* reveal */
+.js .reveal{opacity:0;transform:translateY(16px);transition:opacity .9s ease,transform .9s ease}
+.js .reveal.in{opacity:1;transform:none}
+
+@media(max-width:720px){
+ body{font-size:17px}
+ .grid.cols-2,.grid.cols-3{grid-template-columns:1fr}
+ .lede{font-size:1.12rem}
+ section{padding:48px 0}
+}
+</style></head><body><header class="hero"><img class="bg" src="img/hero-vines-valley.jpg" alt="Chablis vineyards over the valley"><div class="veil"></div><div class="inner"><div class="eyebrow">A Wine Day Trip from Paris</div><h1>A Day in Northern Burgundy</h1><div class="sub serif" style="font-size:1.3rem">with Rachel &#183; late June 2026</div><div class="places">Saint-Bris &#183; Coulanges-la-Vineuse &#183; Chablis</div><div class="scroll">scroll</div></div></header><section><div class="col"><p class="lede">We left Paris on one of those late-June mornings that promises to be a scorcher, pointed southeast with <b>Luis Andr&eacute;</b> of Wine Tours Paris &mdash; not toward the postcard C&ocirc;te d&rsquo;Or, but to the older, quieter Burgundy of the Yonne. The part most people drive past on their way to somewhere more famous, and shouldn&rsquo;t.</p></div><div class="wrap" style="margin-top:18px"><div class="mapcard reveal"><div class="inner">
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Route map of the day in northern Burgundy" style="width:100%;height:auto;display:block;border-radius:4px">
+<defs>
+ <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#f6efe0"/><stop offset="1" stop-color="#efe2c8"/>
+ </linearGradient>
+</defs>
+<rect width="900" height="520" fill="url(#pg)"/>
+<rect x="10" y="10" width="880" height="500" fill="none" stroke="#b3833f" stroke-opacity=".35"/>
+<text x="450" y="58" text-anchor="middle" font-family="Cormorant Garamond,Georgia,serif" font-size="30" fill="#6d1226" font-weight="600" font-style="italic">The Day&#8217;s Route</text>
+<!-- rivers -->
+<path d="M300,470 Q318,380 300,330 Q284,275 312,205 Q330,150 312,90" fill="none" stroke="#9fc0cf" stroke-width="3" stroke-opacity=".7"/>
+<path d="M540,470 Q560,400 600,360 Q660,308 720,300" fill="none" stroke="#9fc0cf" stroke-width="2.4" stroke-opacity=".6"/>
+<text x="296" y="455" font-family="Cormorant Garamond,serif" font-style="italic" font-size="13" fill="#6f8a96">Yonne</text>
+<text x="690" y="290" font-family="Cormorant Garamond,serif" font-style="italic" font-size="13" fill="#6f8a96">Serein</text>
+<!-- route -->
+<path d="M170,135 C250,250 300,300 392,360" fill="none" stroke="#6d1226" stroke-width="2.6" stroke-dasharray="2 7" stroke-linecap="round"/>
+<path d="M392,360 C360,392 350,400 348,404" fill="none" stroke="#6d1226" stroke-width="2.6" stroke-dasharray="2 7" stroke-linecap="round"/>
+<path d="M348,404 C440,440 520,372 612,332" fill="none" stroke="#6d1226" stroke-width="2.6" stroke-dasharray="2 7" stroke-linecap="round"/>
+<path d="M612,332 C600,210 360,108 178,140" fill="none" stroke="#b3833f" stroke-width="2.2" stroke-dasharray="2 8" stroke-linecap="round" stroke-opacity=".8"/>
+<!-- Auxerre ref -->
+<circle cx="300" cy="332" r="4" fill="none" stroke="#8a7a64" stroke-width="1.5"/>
+<text x="300" y="322" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" fill="#8a7a64" letter-spacing="1">Auxerre</text>
+<!-- Paris -->
+<circle cx="170" cy="135" r="6.5" fill="#352a1f"/><circle cx="170" cy="135" r="13" fill="none" stroke="#352a1f" stroke-opacity=".4"/>
+<text x="170" y="118" text-anchor="middle" font-family="Inter,sans-serif" font-size="15" fill="#352a1f" letter-spacing="3" font-weight="600">PARIS</text>
+<!-- stops -->
+<g font-family="Cormorant Garamond,serif">
+ <circle cx="392" cy="360" r="13" fill="#6d1226"/><text x="392" y="365" text-anchor="middle" font-size="15" fill="#f6efe0" font-weight="600">1</text>
+ <text x="412" y="356" font-size="20" fill="#352a1f">Saint-Bris</text><text x="412" y="374" font-size="13" font-style="italic" fill="#8a7a64">the 900-year cellars</text>
+ <circle cx="348" cy="406" r="13" fill="#6d1226"/><text x="348" y="411" text-anchor="middle" font-size="15" fill="#f6efe0" font-weight="600">2</text>
+ <text x="368" y="402" font-size="20" fill="#352a1f">Coulanges-la-Vineuse</text><text x="368" y="420" font-size="13" font-style="italic" fill="#8a7a64">Clos du Roi &amp; lunch</text>
+ <circle cx="612" cy="332" r="13" fill="#6d1226"/><text x="612" y="337" text-anchor="middle" font-size="15" fill="#f6efe0" font-weight="600">3</text>
+ <text x="632" y="328" font-size="20" fill="#352a1f">Chablis</text><text x="632" y="346" font-size="13" font-style="italic" fill="#8a7a64">grand cru finale</text>
+</g>
+<!-- compass -->
+<g transform="translate(812,120)">
+ <circle r="22" fill="none" stroke="#b3833f" stroke-opacity=".5"/>
+ <path d="M0,-20 L5,0 L0,20 L-5,0 Z" fill="#6d1226"/>
+ <text x="0" y="-26" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" fill="#352a1f" font-weight="600">N</text>
+</g>
+<text x="450" y="495" text-anchor="middle" font-family="Cormorant Garamond,serif" font-style="italic" font-size="15" fill="#8a7a64">About two hours from Paris, into the northern Yonne &#183; not to scale</text>
+</svg>
+</div></div><div class="mapcap">Paris &rarr; Saint-Bris &rarr; Coulanges-la-Vineuse &rarr; Chablis &rarr; home.</div></div></section><section><div class="sec-head"><div class="eyebrow">Stop One</div><div class="rule"></div><h2 class="serif">Saint-Bris &mdash; nine centuries underground</h2><div class="sub">Saint-Bris-le-Vineux</div></div><div class="col"><p>Our first stop was a medieval village where the church goes back to the 12th century and the <i>houses</i> average four hundred years old. Beneath it all, cellars dug in the 1100s. Burgundy, it turns out, spent the Hundred Years&rsquo; War allied with <i>England</i> against France &mdash; and Saint-Bris was a fortress on the road to Dijon. History tastes different down there.</p><p>At <b>Domaine Bersan</b> we went down into those cellars: a low brick-vaulted tunnel like a small cathedral, oak barrels running off into the dark under their pale chalk bungs, the ceilings feathered with a soft black mould that turns out to be entirely benign &mdash; it feeds on the wine vapour and slowly oxidises the limestone. In one corner, a bin of ancient, dust-furred bottles with a stoneware jug keeping watch. In another, a passage so narrow you had to duck and turn sideways.</p></div><div class="wrap"><div class="grid cols-2"><figure class="fig reveal"><img loading="lazy" src="img/cellar-vaulted.jpg" alt="The brick-vaulted cellar &mdash; barrels beneath a little jewel of a window."><figcaption>The brick-vaulted cellar &mdash; barrels beneath a little jewel of a window.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/cellar-barrels.jpg" alt="Oak under hanging lights, the vaults feathered with benign black mould."><figcaption>Oak under hanging lights, the vaults feathered with benign black mould.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/cellar-tunnel-rachel.jpg" alt="Rachel, threading one of the old underground escape passages."><figcaption>Rachel, threading one of the old underground escape passages.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/cellar-old-bottles.jpg" alt="A forgotten corner: dust- and mould-furred bottles, time in a cellar."><figcaption>A forgotten corner: dust- and mould-furred bottles, time in a cellar.</figcaption></figure></div></div><blockquote class="pull reveal"><span class="mark">&#10086;</span>Rachel threaded through it like she&rsquo;d lived there nine hundred years.</blockquote><div class="col nofirst"><p>Then, the wines: four whites &mdash; a crisp village Chablis, a C&ocirc;te d&rsquo;Auxerre, the local oddity &ldquo;Mont Embras&eacute;&rdquo; (Saint-Bris is the one corner of Burgundy that grows Sauvignon Blanc), up to a Montmains Premier Cru &mdash; then the reds, an Irancy &ldquo;Vau Falleau&rdquo; and a C&ocirc;te d&rsquo;Auxerre &ldquo;Les Hourdons.&rdquo; We&rsquo;d had our eye on a particular Chablis to take home; they&rsquo;d sold out, so a bottle of Bersan&rsquo;s <b>&ldquo;Les Ouches&rdquo; Chablis</b> &mdash; light, clean, a happy understudy &mdash; rode back to Paris with us.</p></div><div class="wrap"><div class="grid cols-2"><figure class="fig reveal"><img loading="lazy" src="img/bersan-flight.jpg" alt="Four whites at Domaine Bersan, corks barely out."><figcaption>Four whites at Domaine Bersan, corks barely out.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/bersan-reds-irancy.jpg" alt="Finishing on the reds &mdash; the wave-art label of the Irancy &ldquo;Vau Falleau.&rdquo;"><figcaption>Finishing on the reds &mdash; the wave-art label of the Irancy &ldquo;Vau Falleau.&rdquo;</figcaption></figure></div></div></section><section><div class="sec-head"><div class="eyebrow">Stop Two</div><div class="rule"></div><h2 class="serif">Coulanges-la-Vineuse &mdash; the King&rsquo;s vineyard, and a library</h2><div class="sub">Domaine du Clos du Roi</div></div><div class="col"><p>This was the heart of the day. The estate is called <b>Clos du Roi</b> &mdash; &ldquo;the King&rsquo;s vineyard&rdquo; &mdash; for a plot that once supplied the crown after the war. It&rsquo;s run by <b>Magali Bernard</b>, who names her cuv&eacute;es after her two sons, <i>Colleen</i> and <i>Charly</i>.</p><p>We ate lunch there, simply and perfectly: a charcuterie board &mdash; a delicious hard, almost-<i>salumi</i> sausage, cheese, ham, good bread &mdash; alongside the &ldquo;Charly,&rdquo; with a Burgundy map for a tablecloth and a cheeky drinkers&rsquo; creed pinned to the wall. Then the surprise of the day: a caramel ice cream paired with the <b>Ratafia de Bourgogne</b>, a ruby, 100%-Pinot-Noir fortified wine we&rsquo;d never even heard of &mdash; traditionally poured <i>with</i> dessert, and a revelation against the caramel.</p></div><div class="wrap"><div class="grid cols-2"><figure class="fig reveal"><img loading="lazy" src="img/charly-bottle-map.jpg" alt="The &ldquo;Charly&rdquo; over lunch &mdash; a Burgundy map for a tablecloth."><figcaption>The &ldquo;Charly&rdquo; over lunch &mdash; a Burgundy map for a tablecloth.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/ratafia.jpg" alt="The ruby Ratafia de Bourgogne, with the caramel ice cream."><figcaption>The ruby Ratafia de Bourgogne, with the caramel ice cream.</figcaption></figure></div></div><div class="bleed"><figure class="fig reveal"><img loading="lazy" src="img/clos-glasses-sulfite.jpg" alt="The reds lined up at Clos du Roi &mdash; the sulphur log chalked on the wall behind."><figcaption>The reds lined up at Clos du Roi &mdash; the sulphur log chalked on the wall behind.</figcaption></figure></div><div class="col nofirst"><p>And &mdash; of course &mdash; in a village this small, Rachel still managed to find the <b>biblioth&egrave;que</b>, and stood under its hand-lettered sign looking thoroughly pleased with herself.</p></div><div class="wrap"><div class="grid cols-2"><figure class="fig reveal"><img loading="lazy" src="img/rachel-gate.jpg" alt="Coulanges-la-Vineuse, church tower behind."><figcaption>Coulanges-la-Vineuse, church tower behind.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/rachel-bibliotheque.jpg" alt="Of course Rachel found the village biblioth&egrave;que."><figcaption>Of course Rachel found the village biblioth&egrave;que.</figcaption></figure></div></div></section><section><div class="sec-head"><div class="eyebrow">Stop Three</div><div class="rule"></div><h2 class="serif">Chablis &mdash; the grown-up finale</h2><div class="sub">Domaine Long-Depaquit &#183; Albert Bichot</div></div><div class="col"><p>We finished in Chablis itself. First, a walk in the vines: a slope of still-green Chardonnay, the clusters hard little marbles weeks from ripe, looking out over the whole valley. Luis noted that Chablis now harvests in <i>late August</i> &mdash; a full few weeks earlier than a decade ago. You could feel the season leaning forward.</p></div><div class="bleed"><figure class="fig reveal"><img loading="lazy" src="img/green-grapes.jpg" alt="Still-green Chardonnay, weeks from an end-of-August harvest."><figcaption>Still-green Chardonnay, weeks from an end-of-August harvest.</figcaption></figure></div><div class="col nofirst"><p>Then the formal tasting at <b>Domaine Long-Depaquit</b> (part of the venerable Albert Bichot, est. 1831) &mdash; the proper grown-up one, in a room hung with parcel maps of the very slopes in our glasses. It climbed from a fresh, steel-fermented village Chablis through the Premier Crus and into the Grand Crus &mdash; Les Vaud&eacute;sirs, Bougros &mdash; before ending on <b>La Moutonne</b>, the tiny near-mythical monopole.</p></div><div class="bleed"><figure class="fig reveal"><img loading="lazy" src="img/bichot-tasting-room.jpg" alt="Tasting beneath maps of the very slopes in the glass."><figcaption>Tasting beneath maps of the very slopes in the glass.</figcaption></figure></div><div class="wrap"><div class="grid cols-3"><figure class="fig reveal"><img loading="lazy" src="img/chablis-village-label.jpg" alt="Village Chablis 2023."><figcaption>Village Chablis 2023.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/vaudesirs-label.jpg" alt="Grand Cru Les Vaud&eacute;sirs."><figcaption>Grand Cru Les Vaud&eacute;sirs.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/bougros-label.jpg" alt="Grand Cru Bougros."><figcaption>Grand Cru Bougros.</figcaption></figure></div></div><blockquote class="pull reveal"><span class="mark">&#10086;</span>It doesn&rsquo;t shout. It just announces itself on the finish.</blockquote><div class="col nofirst"><p>Afterward we wandered the town: the river Serein threading green between the stone houses, flowers spilling off the bridge, a blackbird on a chimney, the town&rsquo;s old coat of arms &mdash; royal fleurs-de-lis on one side, a little gold chariot on the other. And Rachel, two for two on the day&rsquo;s discoveries, bought some <b>mustard</b>.</p></div><div class="wrap"><div class="grid cols-2"><figure class="fig reveal"><img loading="lazy" src="img/chablis-arms.jpg" alt="The town&rsquo;s coat of arms &mdash; fleurs-de-lis and a little gold chariot."><figcaption>The town&rsquo;s coat of arms &mdash; fleurs-de-lis and a little gold chariot.</figcaption></figure><figure class="fig reveal"><img loading="lazy" src="img/serein-canal.jpg" alt="The river Serein threading through Chablis."><figcaption>The river Serein threading through Chablis.</figcaption></figure></div></div></section><section><div class="sec-head"><div class="rule"></div><h2 class="serif">Home</h2></div><div class="col"><p class="lede">By the time we rolled back into Paris, we&rsquo;d gone from Roman grapes and escape tunnels to grand cru Chablis to a village library &mdash; all in a single, sun-baked, slightly tipsy day. The souvenirs: a bottle of Chablis and a jar of mustard. Northern Burgundy, it turns out, gives you the whole story &mdash; if you let it.</p></div><div class="wrap"><div class="wines reveal"><h3 class="serif">The wines we met</h3><div class="w"><b>Domaine Bersan</b> &mdash; Saint-Bris<p>Chablis &middot; Bourgogne C&ocirc;tes d&rsquo;Auxerre &middot; &ldquo;Mont Embras&eacute;&rdquo; Saint-Bris (Sauvignon Blanc) &middot; Chablis 1er Cru Montmains &middot; Irancy &ldquo;Vau Falleau&rdquo; &middot; C&ocirc;tes d&rsquo;Auxerre &ldquo;Les Hourdons.&rdquo; <span class="home">Home with us: the &ldquo;Les Ouches&rdquo; Chablis.</span></p></div><div class="w"><b>Clos du Roi</b> &mdash; Coulanges-la-Vineuse, Magali Bernard<p>The &ldquo;Charly&rdquo; &middot; the reds flight &middot; and the ruby <i>Ratafia de Bourgogne</i> with the caramel ice cream.</p></div><div class="w"><b>Domaine Long-Depaquit</b> &mdash; Chablis, Albert Bichot<p>Village Chablis 2023 &middot; Premier Crus &middot; Grand Crus Les Vaud&eacute;sirs &amp; Bougros &middot; <i>La Moutonne.</i></p></div></div></div></section><footer><div class="grape">&#127815;</div><p class="serif" style="font-size:1.3rem;color:#6d1226;margin:.2em 0 .1em">Made for Rachel &amp; the family</p><p class="small">A day in the northern Yonne &middot; June 2026 &middot; with Luis Andr&eacute;, Wine Tours Paris</p></footer><script>document.documentElement.classList.add("js");var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll(".reveal").forEach(function(el){io.observe(el)});</script></body></html>
